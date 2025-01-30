@@ -3,3 +3,9 @@ aiologger[aiofiles]
 pip-chill
 uvicorn
 gunicorn
+pydantic
+httpx
+aiologger
+langchain
+langchain-community
+aiofiles>=21.1.0

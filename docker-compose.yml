@@ -1,5 +1,4 @@
 version: "3.8"
-
 services:
   fastapi-service:
     build: .
@@ -11,12 +10,3 @@ services:
       - TZ=UTC
     volumes:
       - ./logs:/app/logs
-    # Если нужно GPU
-    # runtime: nvidia
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: all
-    #           capabilities: [gpu]
