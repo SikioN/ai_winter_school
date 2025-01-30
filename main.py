@@ -11,6 +11,7 @@ app = FastAPI()
 logger = None
 
 
+
 @app.on_event("startup")
 async def startup_event():
     global logger
